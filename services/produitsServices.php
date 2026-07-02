@@ -25,7 +25,6 @@ function produitsparlebelle (array $products, string $value): int{
        return array_splice($products, $index, 1)[0]; 
 }
 
-
 function sauvgarderProduit(){
     global $products;
     do {
